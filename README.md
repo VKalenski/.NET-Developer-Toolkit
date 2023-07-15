@@ -1,2 +1,2 @@
-# The .NET Developer Toolkit
-Course The .NET Developer Toolkit
+# .NET Developer Toolkit
+Course .NET Developer Toolkit
