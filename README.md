@@ -1,6 +1,8 @@
 # .NET Developer Toolkit
 Course .NET Developer Toolkit
 
+https://lesjackson.net/course/dotnet-developer-toolkit
+
 ---
 
 The base branch is must be: MAIN
@@ -24,3 +26,4 @@ Flow to create .NET Project
 - git add .
 - git commit -m "Message"
 - git push origin main
+- git log
