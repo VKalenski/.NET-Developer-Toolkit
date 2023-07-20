@@ -14,10 +14,11 @@
 ### Ingredients
 
 1. .NET 6 SDK (free)
-2. VSCode (free): https://code.visualstudio.com/download
+2. VS Code (free): https://code.visualstudio.com/download
 3. Web Browser or API Client (Postman or Insomnia)
     - Postman  (free): https://www.postman.com/downloads/
     - Insomnia (free): https://insomnia.rest/download
+4. GitHub Desktop (free): https://desktop.github.com/
 
 ---
 
