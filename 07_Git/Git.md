@@ -50,22 +50,20 @@
 
 1. Create/LogIn in https://www.github.com
 2. Commands
+    Check git version
     - ```git --version```
+    Check credentials:
     - ```git config --list```
     For change primary email use:
     - ```git config --global user.email vk@gmail.com```
-    - ```git config --list```
     For change primary user name use:
     - ```git config --global user.name vkalenski```
-    - ```git config --list```
     Check the GitHub CLI version:
     - ```gh --version```
-
-    Create project and use git commands to push in GitHub
     Check .NET version:
     - ```dotnet --version```
     Create console app:
-    - ```dotnet new console -n PrintColour --framework new6.0```
+    - ```dotnet new console -n PrintColor --framework new6.0```
     Go to directory:
     - ```cd Print*```
     Add .gitignore file:
@@ -109,17 +107,3 @@
 
     Clone your repo:
     - ```git clone https://github.com/...```
-
-
-
-
-
-3. 
-4. 
-5. 
-
-
-
-
-
-
