@@ -56,29 +56,92 @@ Alternatives:
 
 ---
 
-- dotnet --version
-- git --version
-- gh --version
-- mkdir ToDoAPI    
-    - mkdir src
+- ```dotnet --version```
+- ```git --version```
+- ```gh --version```
+- ```mkdir ToDoAPI```
+    - ```mkdir src```
         - ```dotnet new webapi -minimal -n ToDoAPI --framework net6.0```
-    - mkdir test
+    - ```mkdir test```
         - ```dotnet new xunit -n ToDoAPI.Tests --framework net6.0``` 
     - ```dotnet new sln --name ToDoAPISolution```
     - ```dotnet sln ToDoAPISolution.sln add src/ToDoAPI/ToDoAPI.csproj test/ToDoAPI.Tests/ToDoAPI.Tests.csproj```
     - ```dotnet add test/ToDoAPI.Tests/ToDoAPI.Tests.csproj reference src/ToDoAPI/ToDoAPI.csproj```
     - ```dotnet new gitignore```
-    - git config --list
-    - git status
-    - git add .
-    - git commit -m "Initial Create"
-    - git push origin main
-    - git logs
-    - git branch -M main
-    -git push -u origin main
+    - ```git config --list```
+    - ```git status```
+    - ```git add .```
+    - ```git commit -m "Initial Create"```
+    - ```git push origin main```
+    - ```git logs```
+    - ```git branch -M main```
+    - ```git push -u origin main```
+    - dotnet add package Microsoft.EntityFrameworkCore
+    - dotnet add package Microsoft.EntityFrameworkCore.Design
+    - dotnet add package Microsoft.EntityFrameworkCore.InMemory
+
+---
+
+### Create endpoints with Insomnia
+
+Run src/ToDoAPI
+```
+Building...
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: https://localhost:7047
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5280
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+```
+
+---
+
+POST
+
+Name: POST ToDoAPI
+
+https://localhost:7047/api/todo
+
+Body:
+{
+	"name": "commit code to git"
+}
+
+---
+
+GET
+
+Name: GET ToDoAPI
+https://localhost:7047/api/todo
+
+Body:
+-
 
 
 ---
+
+### Unit Testing
+
+- Abundant: there should be more of them than any other test type
+- Small: They should test one thing (a unit)
+- Cheap: They are written and executed first. The catch error early which are easier to fix
+- Quick: Both to write and execute
+
+--- 
+
+### Arrange, Act & Assert
+
+Irrespective of the unit testing framework (we are using xUnit), unit tests tend to follow the following pattern:
+- Arrange: The set up of the test, e.g. configuring entry data 
+- Act: Where you execute the test to generate a result
+- Assert: Check the actual result against the expected result
+
+
+
 
 
 
