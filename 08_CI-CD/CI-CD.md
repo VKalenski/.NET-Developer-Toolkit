@@ -146,6 +146,9 @@ Irrespective of the unit testing framework (we are using xUnit), unit tests tend
 Azure Pipelines
 
 It is necessary to create one project in GitHub with current solution file and then do next steps!
+Open: azpipelines-parallelism-request and send
+
+### Flow for connection between GitHub and Azure Pipelines
 1. Settings
 2. Applications
     - Installed GitHub Apps: Azure Pipelines
@@ -158,4 +161,3 @@ It is necessary to create one project in GitHub with current solution file and t
         - Azure Repos Git
         - nameRepo
         - ASP.NET
-
