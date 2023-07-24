@@ -18,7 +18,6 @@ Continuous Integration / Continuous Deployment
 
 Foundational concept in Agile Software Development (DevOps)
 
-
 #### Continuous Integration
 
 - Taking code from one or more developers and building and testing that code to ensure those changes do not break the build
@@ -76,9 +75,9 @@ Alternatives:
     - ```git logs```
     - ```git branch -M main```
     - ```git push -u origin main```
-    - dotnet add package Microsoft.EntityFrameworkCore
-    - dotnet add package Microsoft.EntityFrameworkCore.Design
-    - dotnet add package Microsoft.EntityFrameworkCore.InMemory
+    - ```dotnet add package Microsoft.EntityFrameworkCore```
+    - ```dotnet add package Microsoft.EntityFrameworkCore.Design```
+    - ```dotnet add package Microsoft.EntityFrameworkCore.InMemory```
 
 ---
 
@@ -140,8 +139,10 @@ Irrespective of the unit testing framework (we are using xUnit), unit tests tend
 - Act: Where you execute the test to generate a result
 - Assert: Check the actual result against the expected result
 
+---
 
+### Extensions in VS Code
 
-
+Azure Pipelines
 
 
