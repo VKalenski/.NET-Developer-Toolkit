@@ -62,7 +62,7 @@ Alternatives:
     - ```mkdir src```
         - ```dotnet new webapi -minimal -n ToDoAPI --framework net6.0```
     - ```mkdir test```
-        - ```dotnet new xunit -n ToDoAPI.Tests --framework net6.0``` 
+        - ```dotnet new xunit -n ToDoAPI.Tests --framework net6.0```
     - ```dotnet new sln --name ToDoAPISolution```
     - ```dotnet sln ToDoAPISolution.sln add src/ToDoAPI/ToDoAPI.csproj test/ToDoAPI.Tests/ToDoAPI.Tests.csproj```
     - ```dotnet add test/ToDoAPI.Tests/ToDoAPI.Tests.csproj reference src/ToDoAPI/ToDoAPI.csproj```
@@ -130,12 +130,12 @@ Body:
 - Cheap: They are written and executed first. The catch error early which are easier to fix
 - Quick: Both to write and execute
 
---- 
+---
 
 ### Arrange, Act & Assert
 
 Irrespective of the unit testing framework (we are using xUnit), unit tests tend to follow the following pattern:
-- Arrange: The set up of the test, e.g. configuring entry data 
+- Arrange: The set up of the test, e.g. configuring entry data
 - Act: Where you execute the test to generate a result
 - Assert: Check the actual result against the expected result
 
@@ -145,4 +145,17 @@ Irrespective of the unit testing framework (we are using xUnit), unit tests tend
 
 Azure Pipelines
 
+It is necessary to create one project in GitHub with current solution file and then do next steps!
+1. Settings
+2. Applications
+    - Installed GitHub Apps: Azure Pipelines
+        Go to Configure:
+        - Repository Access: Only Selected repositories: nameRepo
+        - Save
+        - Login in Azure DevOps
+3. Create Pipeline
+    - Azure Pipeline
+        - Azure Repos Git
+        - nameRepo
+        - ASP.NET
 
