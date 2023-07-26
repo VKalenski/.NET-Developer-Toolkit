@@ -118,3 +118,8 @@ Update dotnet-ef tool to last version:
 - docker scout quickview
 
 - ```code --version```
+
+
+```
+git clone git@github.com:panzerdp/clipboardy.git clipboardy-chrome-extension
+```
