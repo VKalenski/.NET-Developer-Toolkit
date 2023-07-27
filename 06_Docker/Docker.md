@@ -106,7 +106,9 @@ Ctrl + R -> certificates -> localhost
 
 - ```dotnet dev-cert https --trust```
 - ```dotnet user-secrets init```
-- ```dotnet user-secrets set "Kestrel:Certificates:Development:Password" "pa55w0rd!" clipboardy-chrome-extension ```
+```
+dotnet user-secrets set "Kestrel:Certificates:Development:Password" "pa55w0rd!" clipboardy-chrome-extension
+```
 
 - ```docker compose up -d```
 - ```docker compose down```
@@ -117,7 +119,9 @@ Update dotnet-ef tool to last version:
 
 - docker scout quickview
 
-- ```code --version clipboardy-chrome-extension```
+```
+code --version clipboardy-chrome-extension
+```
 
 
 ```
