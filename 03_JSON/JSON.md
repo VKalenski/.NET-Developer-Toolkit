@@ -2,9 +2,9 @@
 
 >[1. Ingredients](#ingredients)
 >
->[2. Create SerializationApp](#create-serializationapp)
+>[2. Create Serialization App](#create-serialization-app)
 >
->[3. Create DeserializationApp](#create-deserializationapp)
+>[3. Create Deserialization App](#create-deserialization-app)
 >
 >[4. Create API](#create-api)
 
@@ -19,7 +19,7 @@
 
 ---
 
-### **Create SerializationApp**
+### **Create Serialization App**
 
 > **Create folder SerializationApp:**
 ```
@@ -98,7 +98,7 @@ Remove-Item FileName/FolderName
 
 ---
 
-### **Create DeserializationApp**
+### **Create Deserialization App**
 
 > **Create folder DeserializationApp:**
 ```
