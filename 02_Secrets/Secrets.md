@@ -69,6 +69,8 @@ dotnet user-secrets init
 dotnet user-secrets set "Password" "password"
 ```
 
+#### [🔼 Back to top](#secrets)
+
 ---
 
 ### **Command Config**
