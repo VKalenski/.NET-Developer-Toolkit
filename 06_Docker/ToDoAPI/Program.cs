@@ -21,7 +21,7 @@ app.MapGet("api/todo", async (AppDbContext context) => {
 });
 
 app.MapPost("api/todo", async (AppDbContext context, ToDo toDo) => {
-    
+
     await context.ToDos.AddAsync(toDo);
 
     await context.SaveChangesAsync();
