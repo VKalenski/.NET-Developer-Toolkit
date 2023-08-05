@@ -26,7 +26,7 @@ app.MapGet("/getdata", (IOperationTransient transient, IOperationScoped scoped, 
     // var repo = new NoSqlDataRepo();
 
     // repo.ReturnData();
-    
+
     Console.WriteLine($"Endpoint: TransientId: {transient.OperationId} ScopedId: {scoped.OperationId} SingletonId {singleton.OperationId}");
     return Results.Ok();
 });
