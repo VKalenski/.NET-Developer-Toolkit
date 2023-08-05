@@ -34,7 +34,7 @@ Flow to create .NET Project
 
 ---
 
-### DATA TRANSFER OBJECTS
+### **DATA TRANSFER OBJECTS**
 *05_DTO*
 
 - DTO and Object Mapping
@@ -45,7 +45,7 @@ Flow to create .NET Project
 
 ---
 
-### DOCKER
+### **DOCKER**
 *06_Docker*
 
 - Docker
@@ -57,9 +57,9 @@ Flow to create .NET Project
 - Orchestrating services with Docker Compose
 
 
---- 
+---
 
-### GIT
+### **GIT**
 
 - git branch
 - git status
