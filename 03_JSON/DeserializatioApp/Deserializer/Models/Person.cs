@@ -23,6 +23,5 @@ namespace Deserializer.Models
 
         //[JsonInclude]
         public string? EyeColor;
-
     }
 }

@@ -20,7 +20,5 @@ namespace Serializer.Models
         public Address? Address { get; set;}
 
         public IList<Phone>? Phones { get; set; }
-
-        
     }
 }
