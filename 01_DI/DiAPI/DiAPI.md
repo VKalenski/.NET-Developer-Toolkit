@@ -1,8 +1,14 @@
-### Scaffold DiAPI .Net Project version 6.0
+### **Scaffold DiAPI .Net Project version 6.0**
+
+>[1. Dependency Injection](#dependency-injection)
+>
+>[2. Ingredients](#Ingredients)
+>
+>[3. Terminal Commands](#terminal-commands)
 
 ---
 
-### Dependency Injection (DI)
+### **Dependency Injection**
 
 - Dependency Injection (DI) is a Design Pattern
 - Used predominantly in Object Oriented Programming (OOP)
@@ -11,7 +17,7 @@
 
 ---
 
-### Ingredients
+### **Ingredients**
 
 1. .NET 6 SDK (free)
 2. VS Code (free): https://code.visualstudio.com/download
@@ -22,37 +28,95 @@
 
 ---
 
-### Terminal (PowerShell) commands for create project and files
+### **Terminal Commands**
 
-1. Check the version of .NET:
-    - ```dotnet --version```
-2. Create new minimal API project with name Dependency injection API:
-    - ```dotnet new webapi -minimal -n DiAPI --framework net6.0```
-3. Create gitignore file:
-    - ```dotnet new gitignore```
-4. Restore Project:
-    - ```dotnet restore```
-5. Build Project:   
-    - ```dotnet build```
-6. Run project:
-    - ```dotnet run```
-7. Create folders and files:
-    - ```mkdir Data```
-        - ```New-Item IDataRepo.cs```
-        - ```New-Item NoSqlDataRepo.cs```
-        - ```New-Item SqlData.cs```-
-    - ```mkdir DataServices```
-        - ```New-Item IDataService.cs```
-        - ```New-Item HttpDataService.cs```
-    - ```mkdir Middleware```
-        - ```New-Item CustomMiddleware.cs```
-    - ```mkdir Utility```
-        - ```New-Item IOperation.cs```
-        - ```New-Item Operation.cs```
+> **Check the version of .NET:**
+```
+dotnet --version
+```
 
-        Just for check: delete file or folder: ```Remove-Item FileName/FolderName```
+> **Create new minimal API project with name Dependency injection API:**
+```
+dotnet new webapi -minimal -n DiAPI --framework net6.0
+```
 
----
+> **Create gitignore file:**
+```
+dotnet new gitignore
+```
 
-### The Project use current Packages:
-    - Swashbuckle.AspNetCore
+> **Restore Project:**
+```
+dotnet restore
+```
+
+> **Build Project:**
+```
+dotnet build
+```
+
+> **Run project:**
+```
+dotnet run
+```
+
+> **Create folders and files:**
+
+    > **Create folder "Data":**
+    ```
+    mkdir Data
+    ```
+
+    In folder "Data" create current files:
+
+    > **IDataRepo.cs:**
+    ```
+    New-Item IDataRepo.cs
+    ```
+
+    > **NoSqlDataRepo.cs**
+    ```
+    New-Item NoSqlDataRepo.cs
+    ```
+
+    > **SqlData.cs**
+    ```
+    New-Item SqlData.cs
+    ```
+
+    > **Create folder "DataServices":
+    ```
+    mkdir DataServices
+    ```
+
+    > **IDataService.cs**
+    ```New-Item IDataService.cs```
+
+    > **HttpDataService.cs**
+    ```
+    New-Item HttpDataService.cs
+    ```
+
+    > **Create folder "Middleware":
+    ```
+    mkdir Middleware
+    ```
+
+    > **CustomMiddleware.cs**
+    ```New-Item CustomMiddleware.cs```
+
+    > **Create folder "Utility":
+    ```
+    mkdir Utility
+    ```
+
+    > **IOperation.cs**
+    ```New-Item IOperation.cs```
+
+    > **Operation.cs**
+    ```New-Item Operation.cs```
+
+> **Just for check: delete file or folder:**
+```
+Remove-Item FileName/FolderName
+```
