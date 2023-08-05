@@ -50,9 +50,9 @@ app.MapGet("api/v1/people/{id}", async (AppDbContext context, int id, IMapper ma
 });
 
 app.MapPost("api/v1/people", async (AppDbContext context, PersonCreateDto personCreateDto, IMapper mapper) => {
-    
+
     var personModel = mapper.Map<Person>(personCreateDto);
-    
+
     await context.People.AddAsync(personModel);
 
     await context.SaveChangesAsync();

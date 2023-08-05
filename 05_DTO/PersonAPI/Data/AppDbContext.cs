@@ -9,7 +9,7 @@ namespace PersonAPI.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) :base(options)
         {
-            
+
         }
 
         public DbSet<Person> People => Set<Person>();
