@@ -35,7 +35,9 @@
     - Postman  (free): https://www.postman.com/downloads/
     - Insomnia (free): https://insomnia.rest/download
 5. Azure DevOps account (free): https://azure.microsoft.com/en-us/products/devops
-6. SQL Server Management Studio (free)):
+6. SQL Server Management Studio (free):
+    - https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
+    
     *(or DBeaver for Linux or Mac users)*
 
 #### [🔼 Back to top](#docker)
